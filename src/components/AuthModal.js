@@ -58,7 +58,7 @@ const AuthModal = ({ closeModal, setIsSignedUp }) => {
     event.preventDefault();
     setIsSignedUp(true);
     closeModal();
-    navigate("/userinfo");
+    navigate("/queries");
   };
 
   return (

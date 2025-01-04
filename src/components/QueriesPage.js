@@ -15,6 +15,7 @@
 // };
 import React, { useState, useEffect } from 'react';
 import queriesData from '../data/Queries.json';
+import './QueriesPage.css'
 
 const QueriesPage = () => {
   const [data, setData] = useState(queriesData);

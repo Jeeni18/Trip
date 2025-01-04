@@ -1,6 +1,7 @@
 //correct wala
 import React, { useState } from 'react';
 import './UserInfoForm.css';
+import { useNavigate } from 'react-router-dom'; 
 
 const UserInfoForm = () => {
   const [formData, setFormData] = useState({
@@ -17,12 +18,15 @@ const UserInfoForm = () => {
     }));
   };
 
+  const navigate = useNavigate();   
+
   const handleSubmit = (event) => {
     event.preventDefault();
     console.log('Form Submitted:', formData);
 
     // Add logic for handling the submitted data (e.g., API call)
     alert('Your information has been submitted successfully!');
+    navigate('/queries');   
   };
 
   return (
