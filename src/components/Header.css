@@ -1,0 +1,40 @@
+/* Header.css */
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to bottom, #FFDD00, #FF7F32, #FF4500); /* Sunrise gradient */
+  text-align: center;
+  color: white;
+  padding: 0 20px;
+}
+
+.title {
+  font-family: 'Pacifico', cursive;
+  font-size: 5rem;
+  font-weight: normal;
+  letter-spacing: 5px;
+}
+
+.tagline {
+  font-size: 1.5rem;
+  margin: 20px 0;
+  color: white;
+}
+
+.cta-button {
+  background-color: #FF7F32;
+  color: white;
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #FF4500;
+}
+

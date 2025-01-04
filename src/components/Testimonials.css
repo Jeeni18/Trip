@@ -1,0 +1,32 @@
+/* Testimonials.css */
+.testimonials {
+    padding: 50px 20px;
+    font-size: 1.3rem;
+    text-align: center;
+    background-color: #f9f9f9;
+  }
+  
+  .testimonial-cards {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+  }
+  
+  .testimonial-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 250px;
+  }
+  
+  .testimonial-card p {
+    font-style: italic;
+  }
+  
+  .testimonial-card h4 {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #FF7F32;
+  }
+  
