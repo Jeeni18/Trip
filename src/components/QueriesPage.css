@@ -27,6 +27,7 @@
 }
 
 .queries-page input[type="text"],
+.queries-page input[type="number"],
 .queries-page input[type="email"],
 .queries-page input[type="number"],
 .queries-page select {
